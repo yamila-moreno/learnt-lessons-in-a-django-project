@@ -4,15 +4,14 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Learnt lessons in a big Django project</title>
+		<title>10 lessons I learned during a big Django project</title>
 
-		<meta name="description" content="Slides for the talk 'Learnt lessons in a big Django project">
+		<meta name="description" content="Slides for the talk">
 		<meta name="author" content="Yamila Moreno">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
@@ -41,16 +40,137 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Learnt lessons in a big Django project</h1>
-					<h3>Coming soon :)</h3>
+					<h1>10 lessons I learned during a big Django project</h1>
+                </section>
+                <section>
+                    <h1>Who am I?</h1>
 					<p>
-						<small>Created by <a href="http://moduslaborandi.net">Yamila Moreno</a> / <a href="http://twitter.com/yamila_moreno">@yamila_moreno</a></small>
+                        <ul class="fragment">
+                            <li>Yamila Moreno</li>
+                            <li>Blog: <a href="http://moduslaborandi.net" target="_blank">http://moduslaborandi.net</a></li>
+                            <li>Twitter: <a href="http://twitter.com/yamila_moreno" target="_blank">@yamila_moreno</a></li>
+                            <li>Github: <a href="http://github.com/yamila-moreno" target="_blank">yamila-moreno</a></li>
+                            <li><a href="http://ttparo.es" target="_blank">http://ttparo.es</a></li>
+                            <li><a href="http://twitter.com/pyladies_es" target="_new">@Pyladies_ES</a></li>
+                            <li>Kaleidos: <a href="http://kaleidos.net" target="_new">http://kaleidos.net</a></li>
+                        </ul>
 					</p>
 				</section>
 
+                <section>
+                    <h1>What is this talk about?</h1>
+                </section>
+
+                <section>
+                    <h2>http://guiarepsol.com</h2>
+                    <p>
+                        <img src="static/logo.png">
+                        <ul class="fragment">
+                            <li>Tourist and gastronomic cards</li> <li>Search engine</li>
+                            <li>Powerful map</li>
+                            <li>Planner</li>
+                            <li>Editorial content</li>
+                        </ul>
+                    </p>
+                </section>
+
+                <section>
+                    <h2>A big project</h2>
+                    <ul class="fragment">
+                        <li>80000 tourist cards</li>
+                        <li>500 articles (and growing)</li>
+                        <li>First release: 18 months</li>
+                        <li>Transfer: 6 months</li>
+                        <li>Team: 2 UX, 1 design, 6 backends, 1 P.O.</li>
+                        <li>Content managers, translation team, marketing, Academia de Gastronomía, Repsol IT Team...</li>
+                        <li>42 sprints, 600 USs, 1300 points</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Lesson 1</h3>
+                    <h2 class="fragment">Completely separate API and front projects</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 2</h3>
+                    <h2 class="fragment">Be ready for changes, but don't overengineer</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 3</h3>
+                    <h2 class="fragment">Refactor and abstract the second time you have the chance</h2>
+                </section>
+
+                <section>
+                    <h3>Survey!</h3>
+                    <h2 class="fragment">Sooner rather than later you will make a bug</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 4</h3>
+                    <h2 class="fragment">Test, test, test</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 5</h3>
+                    <h2><span class="fragment">Don't reinvent the wheel</span><span class="fragment">, but...</span></h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 6</h3>
+                    <h2 class="fragment">... know the internals and don't be afraid of doing it yourself</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 7</h3>
+                    <h2 class="fragment">Use a distributed source control manager</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 8</h3>
+                    <h2 class="fragment">Use pull requests as the basic procedure to add features to master</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 9</h3>
+                    <h2 class="fragment">Documentation driven development</h2>
+                </section>
+
+                <section>
+                    <h3>Lesson 10</h3>
+                    <h2 class="fragment">Make as much open source as you can</h2>
+                </section>
+
+                <section>
+                    <ul>
+                        <li>Completely separate API and front projects</li>
+                        <li>Be ready for changes but don't overengineer</li>
+                        <li>Refactor and abstract the second time you have the chance</li>
+                        <li>Test, test, test</li>
+                        <li>Don't reinvent the wheel</li>
+                        <li>Know the internals and don't be afraid of doing it yourself</li>
+                        <li>Use a distributed source control manager</li>
+                        <li>Use PR as the basic procedure to add features to master</li>
+                        <li>Documentation driven development</li>
+                        <li>Make as much open source sa you can</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Questions?</h2>
+                </section>
+
+                <section data-background="static/thankyou.gif">
+                </section>
 			</div>
 
 		</div>
+
+        <footer>
+            <div style="">
+            @yamila_moreno
+            </div>
+        </footer>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
